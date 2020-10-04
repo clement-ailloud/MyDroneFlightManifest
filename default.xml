@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote
+    name="origin"
+    fetch="git@github.com:clement-ailloud/DroneFlightInterface.git"
+    revision="master" />
+
+  <default revision="master"
+    remote="origin"
+    sync-j="4" />
+
+  <project path="VirtualJoystickController"
+    name="VirtualJoystickController"
+    remote="origin"
+    revision="master" />
+
+  <project path="PrimaryFlightDisplay"
+    name="PrimaryFlightDisplay"
+    remote="origin"
+    revision="master" />
+</manifest>
+
