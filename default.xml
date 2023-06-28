@@ -2,21 +2,21 @@
 <manifest>
   <remote
     name="origin"
-    fetch="git@github.com:clement-ailloud/DroneFlightInterface.git"
-    revision="master" />
+    fetch="https://github.com/clement-ailloud"
+    revision="develop" />
 
-  <default revision="master"
+  <default revision="develop"
     remote="origin"
     sync-j="4" />
 
   <project path="VirtualJoystickController"
     name="VirtualJoystickController"
     remote="origin"
-    revision="master" />
+    revision="develop" />
 
   <project path="PrimaryFlightDisplay"
     name="PrimaryFlightDisplay"
     remote="origin"
-    revision="master" />
+    revision="develop" />
 </manifest>
 
