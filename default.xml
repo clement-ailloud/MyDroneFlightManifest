@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote
-    name="origin"
-    fetch="https://github.com/clement-ailloud"
-    revision="develop" />
+  <remote name="origin" fetch="https://github.com/clement-ailloud" />
+  <remote name="origin" fetch="https://github.com/thibaudledo" />
 
-  <default revision="develop"
-    remote="origin"
-    sync-j="4" />
+  <default sync-j="4" revision="master"/>
 
   <project path="VirtualJoystickController"
     name="VirtualJoystickController"
@@ -18,5 +14,10 @@
     name="PrimaryFlightDisplay"
     remote="origin"
     revision="develop" />
+
+  <project path="Autoscope"
+    name="Autoscope"
+    remote="origin"
+    revision="master" />
 </manifest>
 
