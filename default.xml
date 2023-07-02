@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="https://github.com/clement-ailloud" />
-  <remote name="origin" fetch="https://github.com/thibaudledo" />
+    <remote name="origin" fetch="ssh://git@github.com/clement-ailloud" />
 
-  <default sync-j="4" revision="master"/>
+  <default remote="origin" revision="develop" sync-j="8" />
 
   <project path="VirtualJoystickController"
-    name="VirtualJoystickController"
-    remote="origin"
-    revision="develop" />
+    name="VirtualJoystickController.git" />
 
   <project path="PrimaryFlightDisplay"
-    name="PrimaryFlightDisplay"
-    remote="origin"
-    revision="develop" />
-
-  <project path="Autoscope"
-    name="Autoscope"
-    remote="origin"
-    revision="master" />
+    name="PrimaryFlightDisplay.git" />
 </manifest>
 
