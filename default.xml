@@ -4,10 +4,11 @@
 
   <default remote="origin" revision="develop" sync-j="8" />
 
-  <project path="VirtualJoystickController"
-    name="VirtualJoystickController.git" />
-
   <project path="PrimaryFlightDisplay"
     name="PrimaryFlightDisplay.git" />
+
+  <project path="MyDroneFlightPackages"
+      name="MyDroneFlightPackages.git"
+      revision="main" />
 </manifest>
 
